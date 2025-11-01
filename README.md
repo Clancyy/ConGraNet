@@ -35,16 +35,3 @@ To train on IEMOCAP:
 To train on MELD:
 
 `python -u train.py --base-model 'GRU' --dropout 0.4 --lr 0.0001 --batch-size 16 --graph_type='hyper' --epochs=15 --graph_construct='direct' --multi_modal --mm_fusion_mthd='concat_DHT' --modals='avl' --Dataset='MELD' --norm BN --num_L=3 --num_K=3`
-
-## Reference
-
-If you found this code useful, please cite the following paper:
-```
-@inproceedings{chen2023multivariate,
-  title={Multivariate, Multi-Frequency and Multimodal: Rethinking Graph Neural Networks for Emotion Recognition in Conversation},
-  author={Chen, Feiyu and Shao, Jie and Zhu, Shuyuan and Shen, Heng Tao},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={10761--10770},
-  year={2023}
-}
-```
