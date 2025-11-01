@@ -1,7 +1,5 @@
 # GRAPH-BASED EMOTION CONSENSUS PERCEPTION LEARNING FOR MULTIMODAL EMOTION RECOGNITION IN CONVERSATION
 
-Pytorch implementation for the paper:
-
 ### Requirements
 
 - Python 3.8.5
